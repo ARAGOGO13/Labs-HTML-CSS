@@ -1,0 +1,90 @@
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+div{
+    margin: auto;
+}
+.container{
+    width: 450px;
+    justify-content: space-between;
+    display: flex;
+    height: 600px;
+}
+.card{
+    justify-content: space-around;
+    width: 150px;
+    height: 600px;
+    float: left;
+    margin: 20px;
+    margin: auto;
+}
+.picture{
+    width: 150px;
+    height: 150px;
+    background-image: url("icons3.jpg");
+}
+.pic1{
+    background-position: 5% 7%;
+}
+.pic2{
+    background-position: 16.5% 43%;
+}
+.pic3{
+    background-position: 72.5% 7%;
+}
+.style1{
+    font-family: cursive;
+}
+.style2{
+    background-image: url("z.jpg");
+    justify-content: top-between;
+    background-size: cover;
+    width: 900px;
+    height: 600px;  
+    
+
+}
+.container1{
+    width: 1200px;
+    height: 600px;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    padding: 0px 270px 0px 0px
+}
+.style3{
+    font-family: cursive;
+    text-align: center;
+    padding: 250px 150px 3px 150px;
+    color: white;
+    font-size: 30px;
+}
+body{
+    background-image: url("v.jpg");
+    background-position-y: bottom;
+}
+.style4{
+    background-image: url("b.png");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
+}
+.style5{
+    background-image: url("n.png");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+.bigcard{
+    width: 900px;
+    margin: auto;
+    height: 600px;
+    justify-content: top-between;
+}
+.smallcard{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}

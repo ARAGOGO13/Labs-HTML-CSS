@@ -1,0 +1,45 @@
+.style1{
+    width: 120px;
+}
+.InLine{
+    display: inline-block;
+}
+body{
+    background-color: rgb(128, 255, 128);
+}
+h1{
+    font-size: 60px;
+    margin: 0px 30px;
+}
+ul{
+    list-style-type: none;
+    font-size: 30px;
+}
+.style2{
+    width: 200px;
+    float: left;
+    margin: 1px 30px 3px 0px;
+    border: 10px #00B344  double;
+}
+p{
+    font-size: 30px;
+    margin: 30px;
+}
+.style3{
+    width: 240px;
+    float: right;
+    border: 10px #00B344  double;
+}
+.style4{
+    margin: 50px auto;
+    width: 900px;
+}
+.style5{
+    width:240px;
+    border: 10px #00B344  double;
+}
+
+.style{
+    width: 1800px;
+    margin: auto;
+}

@@ -1,0 +1,95 @@
+.button{
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    background-color: red;
+    margin: auto;
+    vertical-align: bottom;
+    padding: 10px 0px 0px 0px;  
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 1500px;
+    padding: 0px 0px 200px 0px;
+    margin: auto;
+}
+.text-style{
+    font-weight: 900;
+    font-size: 60px;
+    font-family: Century Gothic;
+    text-decoration: none;
+}
+.button1{
+    display: block;
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    background-color: red;
+    color: #fff;
+    padding: 170px;
+    font-size: 50px;
+    text-decoration: none;
+    justify-content: end;
+    margin-left: 10px;
+  }
+.button2{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    margin: -354px 138px 0px 0px;
+}
+.button3{
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    margin: 354px 348px 0px 0px;
+}.button4{
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    background-color: red;
+    margin: -432px -756px 0px 0px;
+}
+.button5{
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    background-color: red;
+    margin: 198px -654px 0px 0px;
+}
+.button6{
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    background-color: red;
+    margin: 124px 536px 0px 0px;
+}
+.button7{
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    background-color: red;
+    margin: 542px 328px 0px 0px;
+}
+.button8{
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    background-color: red;
+    margin: 5px 642px 0px 0px;
+}
+

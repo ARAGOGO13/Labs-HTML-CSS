@@ -1,0 +1,117 @@
+.style1{
+    width:380px;
+    height:400px;
+    background-color: #9c98fc;
+    padding: 10px 10px;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+.style2{
+    width: 900px;
+    margin: auto;
+}
+.style3{
+    width:200px;
+    height:400px;
+    background-color: #9c98fc;
+    padding: 10px 10px;
+    margin: 10px;
+}
+.style4{
+    margin: auto;
+    display: block;
+    width: 160px;
+}
+.style5{
+    width: 330px;
+    height: 220px;
+    background-color: pink;
+    padding: 5px auto;
+    margin: auto;
+    justify-content: space-between;
+}
+.style6{
+    padding: 4px 2px 4px 4px;
+}
+.style7{
+    width:200px;
+    height:400px;
+    background-color: #9c98fc;
+    padding: 10px auto;
+    justify-content: space-between;
+    margin: auto;
+}
+.style8{
+    padding: 9px 9px 9px 9px;
+}
+.style9{
+    justify-content: space-between;
+    display:flex;
+    width: 900px;
+    margin: auto;
+}
+.style10{
+    width: 600px;
+    height: 400px;
+    background-color: pink;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+
+}
+.style11{
+    height: 100px;
+    background-color: #99ff99;
+    width: 800px;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 10px 0px 0px 500px;
+}
+.style12{
+    width: 900px;
+    justify-content: space-between;
+    margin:auto;
+    display: flex;
+}
+.style13{
+    width: 150px;
+    height: 30px;
+    background-color: pink;
+    padding: 10px;
+    margin: 10px;
+}
+.style14{
+    width: 100px;
+    height: 20px;
+    background-color: #99ff99;
+    margin: 10px;
+    border: 5px rgb(84, 161, 20) solid;
+    padding: 10px;
+}
+.style15{
+    width: 100px;
+    height: 20px;
+    background-color: #99ff99;
+    margin: 10px;
+    border: 5px rgb(84, 161, 20) solid;
+    padding: 10px;
+
+}
+.style16{
+    width: 100px;
+    height: 20px;
+    background-color: #99ff99;
+    margin: 10px;
+    border: 5px rgb(84, 161, 20) solid;
+    padding: 10px;
+}
+.style17{
+    width: 100px;
+    height: 20px;
+    background-color: #99ff99;
+    margin: 10px;
+    border: 5px rgb(84, 161, 20) solid;
+    padding: 10px;
+}

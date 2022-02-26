@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1900px;
+    display: block;
+    position: relative;
+    margin:auto;
+}
+.button{
+    margin: 20px;
+    width: 750px;
+    height: 200px;
+    display: block;
+}
+.pic-1{
+    background-image: url(86017.png);
+    background-size: contain;
+    width: 70px;
+    height: 43px;
+    display: none;
+    position: absolute;
+    left: 1441px;
+    top: 500px;
+    z-index: 1;
+}
+.pic-2{
+    background-image: url(gg.png);
+    background-size: contain;
+    width: 100px;
+    height: 50px;
+    display: none;
+    position: absolute;
+    left: 1506px;
+    top: 170px;
+    z-index: 1;
+}
+.pic-3 {
+    background-image: url("7a5b1d3e2c340ee1f646663e6d96a365.png");
+    background-size: contain;
+    width: 96px;
+    height: 70px;
+    display: none;
+    position: absolute;
+    left: 1104px;
+    top: 169px;
+    z-index: 1;
+}
+.button-1{
+    background-color: #ff9955;
+}
+.button-2{
+    background-color: #55ff99;
+}
+.button-3{
+    background-color: #5599ff;
+}
+.button-3:hover .pic-3 {
+    display: block;
+}
+
+.button-1:hover .pic-1{
+    display: block;
+}
+.button-2:hover .pic-2{
+    display: block;
+}
+.button-3:hover .pic-3{
+    display: block;
+}
+.big-picture{
+    background-image: url("Fotolia_134254973_M.jpg");
+    width: 1000px;
+    height: 639.6px;
+    margin: auto;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 870px;
+    z-index: 0;
+}
