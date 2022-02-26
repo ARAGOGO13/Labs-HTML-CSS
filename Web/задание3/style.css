@@ -1,0 +1,193 @@
+/* Styles go here */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Jura');
+.RubikFont {
+    font-family: 'Rubik', sans-serif;
+}
+
+.OpenSansFont {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.LobsterFont {
+    font-family: 'Lobster', cursive;
+}
+
+.JuraFont {
+    font-family: 'Jura', sans-serif;
+}
+
+.FontSize26px {
+    font-size: 26px;
+}
+
+.FontSize18px {
+    font-size: 18px;
+}
+
+.FontSize70px {
+    font-size: 70px;
+}
+
+.FontColorBlue {
+    color: #33d;
+}
+
+.FontColorGreen {
+    color: #3a3;
+}
+
+.FontColorOrange {
+    color: #da0;
+}
+
+.FontColorRed {
+    color: #ae1c26;
+}
+
+.FontColorGrey {
+    color: #555;
+}
+
+.FontColorBlack {
+    color: #000;
+}
+
+.Bold {
+    font-weight: 700;
+}
+
+.Cursive {
+    font-style: italic;
+}
+
+.UpperCase {
+    text-transform: uppercase;
+}
+
+.Justify {
+    text-align: justify;
+}
+
+.BackgroundGreen {
+    background-color: #dfd;
+}
+
+.BackgroundGrey {
+    background-color: #f8f4f3;
+}
+
+.Border {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.Width1000px {
+    width: 1000px;
+    margin: auto;
+}
+
+.InLine {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.Width1300px {
+    width: 1300px;
+    margin: auto;
+}
+
+.Height580px {
+    height: 580px;
+}
+
+.InLine {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.Center {
+    text-align: center;
+}
+
+.FontColorGrey {
+    color: #959492;
+}
+
+.FontColorRed {
+    color: #ae1c26;
+}
+
+.FloatingLetter {
+    display: block;
+    float: left;
+    padding: 5px 10px;
+    margin: 0;
+    line-height: 0.5em;
+}
+
+.BackgroundImgBurunduk {
+    background-image: url(http://img-fotki.yandex.ru/get/6100/16969765.217/0_8e08b_73b739b9_orig.png);
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 30px;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.BackgroundImgBorodavochnik {
+    background-image: url(http://s1.iconbird.com/ico/2013/12/535/w512h5121387208028pumbaaicon.png);
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 30px;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.BackgroundImgCoyot {
+    background-image: url(http://ru.wikifur.com/w/images/5/56/Wile_E_Coyote.png);
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 30px;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.BackgroundImgFox {
+    background-image: url(http://vignette4.wikia.nocookie.net/disney/images/e/ef/Nick_Wilde_Zootopia.png/revision/latest?cb=20151224194739);
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 30px;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.Round {
+    border-radius: 20px;
+}
+
+.Granica {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}

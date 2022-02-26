@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+*{
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+}
+.welcome{
+    background-color: #242325;
+}
+.container{
+    width: 1400px;
+    margin: auto;
+    display: flex;
+}
+.welcome_window{
+    width: 650px;
+    justify-content: space-between;
+    padding: 50px 30px 0px 0px;
+}
+.text-style{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.text1{
+    text-transform: uppercase;
+    font-size: 76px;
+    font-weight: 900;
+}
+.text2{
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(255, 74, 74);
+}
+.pictures1{
+    width: 670px;
+}
+.text3{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: none;
+}
+.events{
+    background-color: #18171B;
+}
+.black{
+    width: 570px;
+}
+.data{
+    width: 100px;
+    background-color: #242329;
+    height: 133px;
+    justify-content: space-between;
+    margin: -4px 0px 0px 2px;
+}
+.white{
+    width: 570px;
+    float: right;
+    margin: 0px 0px 0px 30px;
+}
+.style6{
+    background-color: red;
+    height: 133px;
+    margin: -33px 0px 0px 0px;
+}
+.style7{
+    font-size: 30px;
+    font-weight: 900;
+    color: #18171B;
+    text-align: center;
+    margin: 29px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    text-decoration: none;
+}
+.style8{
+    width: 470px;
+}
+.style9{
+    display: flex;
+}
+.Hip-hop_classes{
+    background-color: #242325;
+}
+.card{
+    background-color: #fff;
+    width: 370px;
+    justify-content: space-between;
+    margin: auto;
+}
+.text4{
+    color:#D91D52;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 32px 0px 32px;
+}
+.style10{
+    width: 370px;
+    height: 300px;
+}
+.text5{
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #484652;
+    text-align: center;
+    font-size: 20px;
+}
+.text6{
+    font-weight: 400;
+    color:#18171B;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 30px 0px 30px;
+}
+.team{
+    width: 1170px;
+    justify-content: space-between;
+    padding: 30px 0px 0px 0px;
+    margin: auto;
+    display: flex;
+}
+.style11{
+    width: 464px;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.reviews{
+    background-color: #18171B;
+}
+.card2{
+    width: 572.5px;
+    display: block;
+    justify-content: space-between;
+    padding-right: 25px;
+    margin: auto;
+}
+.card3{
+    justify-content: space-between;
+    width: 587.5px;
+    display: flex;
+    height: 270px;
+}
+.style12{
+    background-color: #fff;
+    width: 415.5px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.style13{
+    padding-top: 25px ;
+}
+.header{
+    background-image: url("images/222111-Assetto\ Corsa\ Competizione\ Released\ 02.jpg");
+    height: 922px;
+    background-size: cover;
+}
+.menu-item{
+    margin: 0px 40px 0px 40px;
+
+}.main-menu{
+    height: 70px;
+    display: flex;
+    list-style: none;
+    margin: 20px;
+    justify-content: right;
+    align-items: center;
+}
+.container2{
+    width: 1900px;
+    margin: auto;
+    display: flex;
+}
+.text7{
+    color: red;
+    text-decoration: none;
+}
+.img1{
+    padding-top: 30px;
+}
+.big-card{
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+}
+.text8{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.container3{
+    width: 1250px;
+    display: flex;
+    margin: auto;
+}
+footer{
+    background-color: #242325;
+}
+.text9{
+    font-size: 30px;
+    color:#56555c;
+    font-weight: 900;
+    margin: auto;
+    display: flex;
+}

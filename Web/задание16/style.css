@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+.container{
+    width: 1400px;
+    display: flex;
+    background-color: rgb(199, 199, 199);
+    margin: 20px auto;
+    padding: 20px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.card{
+    width: 440px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    margin: 
+}
+.text1{
+    color: red;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text2{
+    text-decoration: line-through;
+    margin: -25px 0px 0px 0px;
+    color:rgb(102, 102, 102);
+    font-size: 20px;
+}
+.text3{
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+}
+.text4{
+    color: #fff;
+}
+h2{
+    font-weight: 400;
+}
+.sale{
+    position: absolute;
+    text-align:center;
+    top: 30px;
+    left: 55px;
+    background-image: url("discount.png") ;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    font-size: 20px;
+    vertical-align: middle;
+    padding: 13px 9px;
+}
+.button{
+    width: 400px;
+    margin: auto;
+    background-color: red;
+    text-decoration: none;
+    font-size: 40px;
+    color:#fff;
+    font-weight: 900;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+}

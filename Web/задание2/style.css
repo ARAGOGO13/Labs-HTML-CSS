@@ -1,0 +1,153 @@
+.block1{
+    background-color: red;
+    height: 10px;
+    width: 15px;
+}
+.block2{
+    background-color: orange;
+    height: 5px;
+    width: 25px;
+}
+.block3{
+    background-color: yellow;
+    height: 10px;
+    width: 35px;
+}
+.block4{
+    background-color: green;
+    height: 5px;
+    width: 45px;
+}
+.block5{
+    background-color: aqua;
+    height: 10px;
+    width: 55px;
+}
+.block6{
+    background-color: blue;
+    height: 5px;
+    width: 65px;
+}
+.block7{
+    background-color: purple;
+    height: 10px;
+    width: 75px;
+}
+.flag1{
+    background-color: red;
+    height: 20px;
+    width: 200px;
+}
+.flag2{
+    background-color: aqua;
+    height: 20px;
+    width: 200px;
+}
+.flag3{
+    background-color: green;
+    height: 20px;
+    width: 200px;
+}
+.f1{
+    background-color: orange;
+    height: 20px;
+    width: 100px;   
+}
+.f2{
+    background-color: aqua;
+    height: 80px;
+    width: 20px;
+    margin: auto;
+    display: inline-block;
+}
+.f3{
+    background-color: grey;
+    height: 80px;
+    width: 40px;
+    display: inline-block;
+}
+.InLine{
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    padding: 20px;
+    margin-right: 20px;
+}
+.nav li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.cube_gray1 {
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    display: inline-block;
+}
+.f4{
+    background-color: green;
+    height: 80px;
+    width: 20px;
+    display: inline-block;
+}
+.f5{
+    background-color: green;
+    height: 20px;
+    width: 60px;
+    display: inline-block;
+}
+.zazor{
+    font-size: 0;
+}
+.cube_gray2{
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    display: inline-block;
+}
+.f6{
+    width: 37.5px;
+    height: 25px;
+    background-color: grey;
+    display: inline-block;
+}
+.f7{
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+.f8{
+    background-color: green;
+    height: 25px;
+    width: 45px;
+    display: inline-block;
+}
+.f9{
+    background-color: grey;
+    height: 25px;
+    width: 27.5px;
+    display: inline-block;
+}
+.f10{
+    background-color: grey;
+    height: 25px;
+    width: 17.5px;
+    display: inline-block;
+}
+.f11{
+    background-color: blue;
+    height: 25px;
+    width: 65px;
+    display: inline-block;
+}
+.f12{
+    background-color: blueviolet;
+    height: 25px;
+    width: 100px;
+}

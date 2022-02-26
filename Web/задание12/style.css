@@ -1,0 +1,27 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.a{
+    background-color: #75d6e5;
+}
+.b{
+    background-color: #9ce79e;
+}
+.c{
+    background-color: #e5b8e6;
+}
+.d{
+    background-color: #e5d9a9;
+}
+a{
+    font-size: 75px;
+    font-weight: 900;
+    font-family: Century Gothic;
+    color: #fff;
+    text-decoration: none;
+}
