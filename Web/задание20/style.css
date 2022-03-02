@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Calibri';
+}
+
+h2{
+    font-size: 40px !important;
+    color: #fff !important;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 0px 0px 0px;
+}
+
+.container{
+    width: 1900px;
+    display: block;
+    margin : auto;
+}
+
+.text-style{
+    font-family: 'Verdana';
+    color: black;
+    font-size: 16px;
+}
+
+.main-picture{
+    background-image: url('images1/logo.jpg');
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    display: block;
+    background-size: cover;
+}
+
+.sticky{
+    position: sticky; 
+    height: 100px;
+    width: 100%;
+    background-color: #1c1c1c;
+    top: 10px;
+}
+
+.pictureJohnLenon{
+    background-image: url('images1/john.jpg');
+    background-size: cover;
+    width: 1047.6px;
+    height: 698.4px;
+    margin: auto;
+}
+
+.picturePaulMcCartney{
+    background-image: url('images1/paul.jpg');
+    background-size: cover;
+    width: 1104px;
+    height: 710px;
+    margin: auto;
+}
+
+.pictureRingoStarr{
+    background-image: url('images1/ringo.jpg');
+    background-size: cover;
+    width: 1100.4px;
+    height: 1440px;
+    margin: auto;
+}
+
+.pictureGeorgeHarrison{
+    background-image: url('images1/george.jpg');
+    background-size: cover;
+    width: 1080px;
+    height: 720px;
+    margin: auto;
+}

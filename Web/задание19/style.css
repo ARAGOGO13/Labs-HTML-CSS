@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Calibri';
+}
+
+.container{
+    width: 1900px;
+    display: flex;
+    margin : auto;
+}
+
+.pointer{
+    background-image: url("images1/pointer.png");
+    width: 280px;
+    height: 220px;
+    position: fixed;
+    top: 350px;
+}
+
+.v {
+    margin: 10px 20px 0px 350px;
+    height: 100px;
+    font-size: 30px;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.variant1{
+    background-color: #f59;
+}
+
+.variant2{
+    background-color: #f95;
+}
+
+.variant3{
+    background-color: #9f5;
+}
+
+.variant4{
+    background-color: #5f9;
+}
