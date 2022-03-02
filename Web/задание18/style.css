@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1900px;
+    margin: auto;
+    display: block;
+    
+}
+
+.card{
+    width: 307px;
+    height: 440px;
+    position: absolute;
+}
+
+.card1{
+    background-image: url(images1/bone.png);
+    top: 100px;
+    left: 150px;
+    z-index: 2;
+}
+
+.card2{
+    background-image: url(images1/hero.png);
+    top: 200px;
+    left: 50px;
+    z-index: 1;
+}
+
+.card3{
+    background-image: url(images1/viewer.png);
+    top: -22px;
+    left: 266px;
+    z-index: 3;
+}
