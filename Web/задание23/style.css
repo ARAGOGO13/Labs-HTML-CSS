@@ -1,0 +1,142 @@
+@font-face{
+    font-family: X-Men;
+    src: url(fonts/sui\ generis\ rg.ttf)
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+}
+
+h2{
+    font-family: X-Men;
+    padding-bottom: 100px;
+    font-size: 60px;
+    text-align: right;
+    padding-bottom: 70px;
+}
+
+
+.container{
+    width: 1900px;
+    margin: auto;
+}
+
+h1{
+    font-family: X-Men;
+    text-align: center;
+    font-size: 120px;
+    color: #fefefe;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.menu{
+    display: flex;
+    width: 1600px;
+    color: #fefefe;
+    margin: auto;
+    
+}
+
+.information{
+    font-style: italic;
+    font-family: X-Men;
+    font-size: 30px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.vr{
+    width: 2px;
+    height: 680px;
+    background-color: #fefefe;
+    padding-left: 1px;
+}
+
+.xavier, .magneto, .logan{
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+
+.xavier:hover, .magneto:hover, .logan:hover{
+    background-color: #101010;
+}
+
+.xavier_pic{
+    background-image: url('images/1.jpg');
+    position: absolute;
+    top: 0px;
+    left: -750px;
+    width: 500px;
+    height: 740px;
+    opacity: 0;
+    top: 200px;
+    background-size: cover;
+}
+
+.magneto_pic{
+    background-image: url('images/2.jpg');
+    position: absolute;
+    top: 0px;
+    left: -750px;
+    width: 500px;
+    height: 740px;
+    opacity: 0;
+    top: 200px;
+    background-size: cover;
+}
+
+.logan_pic{
+    background-image: url('images/3.jpg');
+    position: absolute;
+    top: 0px;
+    left: -750px;
+    width: 500px;
+    height: 740px;
+    opacity: 0;
+    top: 200px;
+    background-size: cover;
+}
+
+.xavier:hover > .xavier_pic{
+    opacity: 1;
+    left: 1150px;
+    top: 200px;
+    transition: 0.8s;
+}
+
+.magneto:hover > .magneto_pic{
+    opacity: 1;
+    left: 1150px;
+    top: 200px;
+    transition: 0.8s;
+}
+
+.logan:hover > .logan_pic{
+    opacity: 1;
+    left: 1150px;
+    top: 200px;
+    transition: 0.8s;
+}
+
+.xavier:hover h2{
+    color: #048fa9;
+    transition: 0.8s;
+}
+
+.magneto:hover h2{
+    color: #c71a1e;
+    transition: 0.8s;
+}
+
+.logan:hover h2{
+    color: #c49a07;
+    transition: 0.8s;
+}

@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+menu{
+    display: block;
+}
+
+.button{
+    width: 280px;
+    height: 60px;
+    background-color: #ccc;
+    font-size: 18px;
+    font-family: Verdana;
+    color: #333;
+    padding: 19px;
+    text-align: right;
+    position: absolute;
+    margin-left: -145px !important;
+    
+}
+
+.button:hover{
+    left: 135px;
+    transition: 0.7s;
+}
+
+.home{
+    left: 0px;
+    top: 0px;
+    background-color: #9f9;
+    padding-right: 70px;
+}
+
+.products{
+    left: 0px;
+    top: 62px;
+    background-color: #99f;
+    padding-right: 60px;
+}
+
+.feedbacks{
+    left: 0px;
+    top: 124px;
+    background-color: #f99;
+    padding-right: 58px;
+}
+
+.contacts{
+    left: 0px;
+    top: 186px;
+    background-color: #ff9;
+    padding-right: 42px;
+}
+
+.achievements{
+    left: 0px;
+    top: 248px;
+    background-color: #9ff;
+    padding-right: 18px;
+}
