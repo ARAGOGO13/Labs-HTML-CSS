@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    transition: 0.7s;
+}
+
+.big_sqrt1, .big_sqrt2, .big_sqrt3{
+    width: 150px;
+    height: 150px;
+    background-color: #182;
+    margin: 20px 0px 0px 20px;
+}
+
+.rectangle1{
+    width: 100px;
+    height: 30px;
+    background-color: #5c6;
+    position: absolute;
+    left: 45px;
+    top: 65px;
+    z-index: 1;
+}
+
+.rectangle2{
+    width: 100px;
+    height: 30px;
+    background-color: #5c6;
+    position: absolute;
+    left: 45px;
+    top: 95px;
+    z-index: 1;
+}
+
+.text{
+    color: white;
+    font-family: Century Gothic;
+    font-size: 24px;
+    font-weight: 900;
+    position: absolute;
+    left: 55px;
+    top: 80px;
+    z-index: 2;
+}
+
+.big_sqrt1:hover>div.rectangle1{
+    transform: skew(25deg, 0deg);
+}
+
+.big_sqrt1:hover>div.rectangle2{
+    transform: skew(-25deg, 0deg);
+}
+
+.big_sqrt1:hover>span{
+    left: 60px;
+}
+
+.line1{
+    width: 80px;
+    height: 10px;
+    background-color: #7e8;
+    border-radius: 5px;
+    z-index: 2;
+    position: absolute;
+    left: 55px;
+    top: 260px;
+}
+
+.line2{
+    width: 80px;
+    height: 10px;
+    background-color: #7e8;
+    border-radius: 5px;
+    z-index: 2;
+    position: absolute;
+    left: 55px;
+    top: 280px;
+}
+
+.line3{
+    width: 80px;
+    height: 10px;
+    background-color: #7e8;
+    border-radius: 5px;
+    z-index: 2;
+    position: absolute;
+    left: 55px;
+    top: 300px;
+}
+
+.big_sqrt2:hover>div.line1{
+    transform: skew(0deg, 22deg); 
+    width: 40px;
+    left: 95px;
+    top: 270px;
+}
+
+.big_sqrt2:hover>div.line3{
+    transform: skew(0, -22deg);
+    width: 40px;
+    left: 95px;
+    top: 290px;
+}
+
+.line4{
+    width: 80px;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    z-index: 2;
+    position: absolute;
+    left: 55px;
+    top: 450px;
+}
+
+.line5{
+    width: 80px;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    z-index: 2;
+    position: absolute;
+    left: 55px;
+    top: 470px;
+}
+
+.line6{
+    width: 80px;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    z-index: 2;
+    position: absolute;
+    left: 55px;
+    top: 490px;
+}
+
+.big_sqrt3:hover>div.line4{
+    transform: skew(0deg, 45deg); 
+    width: 85px;
+    left: 50px;
+    top: 465px;
+}
+
+.big_sqrt3:hover>div.line5{
+    width: 40px;
+    left: 200px;
+    top: 470px;
+    opacity: 0;
+}
+
+
+.big_sqrt3:hover>div.line6{
+    transform: skew(0, -45deg);
+    width: 85px;
+    left: 55px;
+    top: 470px;
+}
