@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    transition: 0.5s;
+}
+
+.container1 {
+    width: 1800px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    width: 1800px;
+    height: 330px;
+}
+
+.container3 {
+    width: 1800px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container5 {
+    margin-top: 20px;
+    background-color: #1d1f20;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+}
+
+.green,
+.violete,
+.lightblue,
+.yellow {
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.green {
+    background-color: #aaffaa;
+    text-shadow: 3px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.violete {
+    background-color: #ddddff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.lightblue {
+    background-color: #aaffff;
+    text-shadow: -3px 3px 0 rgba(0, 230, 230, 1), -5px 5px 0 rgba(1, 204, 204, 1), -7px 7px 0 rgba(0, 189, 189, 1);
+}
+
+.yellow {
+    background-color: #ffffdd;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 3px 5px rgba(0, 0, 0, 0.2), 0 7px 3px rgba(0, 0, 0, 0.3);
+}
+
+.text-style1 {
+    font-size: 40px;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+.text-style2 {
+    font-size: 20px;
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.text-style3 {
+    font-size: 32px;
+    color: #000;
+    font-weight: 100;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+}
+
+.h2_first {
+    padding-left: 800px;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.h2_seccond {
+    padding-left: 790px;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.menu {
+    margin: 20px;
+}
+
+.menu1,
+.menu2 {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.button1,
+.button2 {
+    width: 500px;
+    height: 90px;
+    background-color: #eee;
+    margin: 10px;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+}
+
+.button1 {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.button1:hover {
+    border: 1px solid rgba(238, 238, 238, 0.3);
+    box-shadow: 0 8px 3px -5px rgba(0, 0, 0, 0.5);
+}
+
+.button2:hover {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 3px -5px rgba(255, 255, 255, 1);
+}
+
+.button2 {
+    border: 1px solid rgba(238, 238, 238, 0.3);
+    box-shadow: 0 8px 3px -5px rgba(0, 0, 0, 0.5);
+}
+
+.picture_box {
+    width: 480px;
+    height: 500px;
+    background-color: #eee;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    box-shadow: 0 50px 10px -50px rgba(0, 0, 0, 0.7);
+}
+
+.pic {
+    padding: 40px;
+}
+
+.button3,
+.button4 {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    padding: 32px 70px;
+    border-radius: 10px;
+    background-size: 200%;
+    transition: .5s;
+    box-sizing: content-box;
+    margin-right: 20px;
+}
+
+.button3 {
+    background: linear-gradient(to left, #a1c4fd, #c2e9fb, #a1c4fd);
+    background-size: 200%;
+}
+
+.button4 {
+    background: linear-gradient(to left, #ffecd2, #fcb69f, #ffecd2);
+    background-size: 200%;
+}
+
+.button3:hover,
+.button4:hover {
+    background-position: right;
+}
+
+.button_gradient {
+    --angle: 0deg;
+    width: 350px;
+    height: 140px;
+    font-size: 30px;
+    margin: auto;
+    position: relative;
+    background: conic-gradient(from var(--angle), #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #F17C58);
+    border-radius: 10px;
+    background-position: 0 0;
+    animation: 2s rotate linear infinite;
+}
+
+.button_gradient-content {
+    z-index: 3;
+    padding: 10px 30px;
+    background-color: #1d1f20;
+    width: 346px;
+    height: 136px;
+    margin: auto;
+    padding-top: 10px;
+    left: 2px;
+    top: 2px;
+    position: absolute;
+    border-radius: 8px;
+}
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
