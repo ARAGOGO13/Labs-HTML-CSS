@@ -1,0 +1,412 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.text-style{
+    color: #eee;
+    font-family: Century Gothic;
+    text-decoration: none;
+}
+
+.h1-header{
+    position: absolute;
+    font-size: 50px;
+    left: 600px;
+    top: 80px;
+}
+
+h2{
+    color: #000 !important;
+    font-size: 40px;
+}
+
+.main-menu{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+
+.container{
+    background-image: url('images/pics/parallax.jpg');
+    background-size: cover;
+    width: 1903px;
+    margin: auto;
+    height: 300px;
+}
+
+.menu-item{
+    width: 200px;
+    height: 50px;
+    background-color: #000;
+    margin: 20px;
+    font-size: 24px;
+    border: 4px solid #eee;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 12%;
+
+}
+
+.small_container{
+    background-color: #dcdcdc;
+    width: 1903px;
+    height: 1200px;
+    padding: 100px 500px 0 500px;
+    margin:auto;
+}
+
+.pictures_planets{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.sol{
+    background-image: url('images/pics/venus.jpg');
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.earth{
+    background-image: url('images/pics/earth.jpg');
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.jupiter{
+    background-image: url('images/pics/jupiter.jpg');
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.spaceship1{
+    background-image: url('images/pics/spaceship1.jpg');
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.spaceship2{
+    background-image: url('images/pics/spaceship2.jpg');
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.spaceship3{
+    background-image: url('images/pics/spaceship3.jpg');
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.spaceman1{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    background-size: contain;
+    background-position: center;
+    background-color: #000;
+}
+
+.spaceman2{
+    background-image: url('images/pics/spaceman2.jpg');
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.spaceman3{
+    background-image: url('images/pics/spaceman3.jpg');
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.facebook{
+    background-image: url('images/icons/facebook.png');
+}
+
+.yt{
+    background-image: url('images/icons/youtube.png');
+}
+
+.whats{
+    background-image: url('images/icons/whatsapp.png');
+}
+
+.snap{
+    background-image: url('images/icons/snapchat.png');
+}
+
+.facebook:hover{
+    background-color: #0000ff;
+    border-radius: 50%;
+    transition: 0.7s
+}
+
+.snap:hover{
+    background-color: #ffff00;
+    border-radius: 50%;
+    transition: 0.7s
+}
+
+.yt:hover{
+    background-color: #ff0000;
+    border-radius: 50%;
+    transition: 0.7s
+}
+
+.whats:hover{
+    background-color: green;
+    border-radius: 50%;
+    transition: 0.7s
+}
+
+.sputnik{
+    background-image: url('images/sputnik.png');
+    position: absolute;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    left: 76px;
+    top: 4px;
+}
+
+.sputnik{
+    background-image: url('images/sputnik.png');
+    position: absolute;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    left: 76px;
+    top: 4px;
+}
+
+.rocket{
+    background-image: url('images/rocket.png');
+    position: absolute;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    left: 420px;
+    top: 4px;
+}
+
+.star{
+    background-image: url('images/star.png');
+    position: absolute;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    left: 610px;
+    top: 4px;
+}
+
+.sys:hover .sputnik{
+    transform: scale(1.5);
+    transition: 0.7s;
+}
+
+.tec:hover .rocket{
+    transform: translateY(-10px);
+    transition: 0.7s;
+}
+
+.earth_star:hover .star{
+    transform: rotate(90deg);
+    transition: 0.7s;
+}
+
+.venus_p{
+    position: absolute;
+    left: 400px;
+    top: 664px;
+    opacity: 0;
+    font-size: 28px;
+    color: #000;
+}
+
+.sol:hover .venus_p{
+    opacity: 1;
+    transition: 0.7s;
+    left: 544px;
+    top: 664px;
+}
+
+.earth_p{
+    position: absolute;
+    left: 750px;
+    top: 664px;
+    opacity: 0;
+    font-size: 28px;
+    color: #000;
+}
+
+.earth:hover .earth_p{
+    opacity: 1;
+    transition: 0.7s;
+    left: 904px;
+    top: 664px;
+}
+
+.jupiter_p{
+    position: absolute;
+    left: 1050px;
+    top: 664px;
+    opacity: 0;
+    font-size: 28px;
+    color: #000;
+}
+
+.jupiter:hover .jupiter_p{
+    opacity: 1;
+    transition: 0.7s;
+    left: 1248px;
+    top: 664px;
+}
+
+.spaceman1:hover{
+    opacity: 0.7;
+    transition: opacity 124ms linear, transform 124ms linear;
+}
+
+.black{
+    display: inline-block;
+	width: 200px;
+}
+.pic{
+    background: #000;
+}
+.black .pic .pic_img{
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;  /* Плавное изменение прозрачности и увеличения */
+	width: 200px;
+    height: 250px !important;
+	height: auto;
+    display: block;
+}
+.black:hover .pic_img{
+    opacity: 0.5;
+}
+
+.inst-pic{
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    margin: 24px 0 0 26px;
+}
+
+.Ricahrd{
+    position: absolute;
+    opacity: 1;
+    left: 532px;
+    top: 1260px;
+    opacity: 0;
+}
+
+.Cristina{
+    position: absolute;
+    opacity: 1;
+    left: 880px;
+    top: 1260px;
+    opacity: 0;
+}
+
+.Oleg{
+    position: absolute;
+    opacity: 1;
+    left: 1240px;
+    top: 1260px;
+    opacity: 0;
+}
+
+.Ricahrd:hover{
+    opacity: 1;
+    transition: 0.7s;
+}
+
+.Cristina:hover{
+    opacity: 1;
+    transition: 0.7s;
+}
+
+.Oleg:hover{
+    opacity: 1;
+    transition: 0.7s;
+}
+
+.grey_sqrt{
+    width: 180px;
+    height: 180px;
+    background-color: #494949;
+    opacity: 0;
+    margin: 10px;
+    border: 1px dashed #eee;
+    outline: 4px solid #494949;
+    padding: 56px 0 0 24px;
+}
+
+.flag{
+    width: 100px;
+    height: 60px;
+}
+
+.p_t{
+    font-size: 18px;
+}
+
+.spaceship1:hover .grey_sqrt{
+    opacity: 0.8;
+    transition: 0.7s;
+}
+
+.spaceship2:hover .grey_sqrt{
+    opacity: 0.8;
+    transition: 0.7s;
+}
+
+.spaceship3:hover .grey_sqrt{
+    opacity: 0.8;
+    transition: 0.7s;
+}
